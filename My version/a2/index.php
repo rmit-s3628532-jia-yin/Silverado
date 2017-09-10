@@ -1,73 +1,118 @@
 <!DOCTYPE html> 
-<html lang='en'>
+<html lang="en">
     <head>
-    <title>Silverado</title>
-	<link href='https://fonts.googleapis.com/css?family=Italianno' rel='stylesheet'>
-	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-	<!-- <link type="text/css" rel="stylesheet" href="/~e54061/wp/wireframe.css"/> -->
-
-	<link rel='stylesheet' type='text/css' href='style.css'>
+        <title>Silverado</title>
+        
+        <!-- Original image below sourced for educational purposes: https://image.freepik.com/free-icon/cinema-video-player_318-41322.jpg/ -->
+        <link rel="icon" type="image/jpg" href="../img/logo.jpg" />
+        
+        <link href="https://fonts.google.com/specimen/Pacifico?selection.family=Pacifico" rel="stylesheet">
+        <link href="https://fonts.google.com/specimen/Bellefair?selection.family=Bellefair" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
     <body>
-    <header>
-        <h1>Silverado</h1>
-    </header>
+        <header>
+            <h1>Silverado</h1>
+        </header>
     
-    <nav>
-	    <ul>
-			<li><a href='index.php'>home</a></li>
-			<li><a href='showing.php'>showing</a></li>
-		</ul>
-    </nav>
+        <nav>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="showing.php">Showing</a></li>
+            </ul>
+        </nav>
 
-    <main>
-		<div><h2>Brand new</h2>
-		    <p>after three months' renovation, we present you</p> 
-		    <p>premium cinema experience in your own town</p> 
-		</div>
-		<div class='container'>
-			<h2>3D Projection</h2>
-			<!-- Original image below sourced for educational purposes: http://hypersonicegypt.com/screens/ -->
-			<p><img class = 'homepage_img' src='../img/3D.jpg' alt='3D cinema screen' width = '800' height = '450'</p>
-		</div>
-		<div class = 'container'>
-		<h2>Dolby lighting and sound</h2>	
-		<!-- Original image below sourced for educational purposes: https://www.google.com.au/search?biw=1396&bih=646&tbm=isch&sa=1&q=dolby+lighting+&oq=dolby+lighting+&gs_l=psy-ab.3...52194.53434.0.54035.9.7.0.0.0.0.328.580.2-1j1.2.0....0...1.1.64.psy-ab..8.0.0.xTAShdVbWh4#imgrc=cSGS9cqrpB6MYM -->
-		<p><img class = 'homepage_img' src='../img/dolby.jpg' alt='dolby System' width = '800' height = '450'</p>
-		<p><a href='http://www.dolby.com/us/en/platforms/dolby-cinema.html'>see more about dolby ></a></p>
-		</div>
-		<h2>New Seats</h2>
-		<div class = 'seating'>
-		    <p><img src='../img/seating.png' alt='Seating Plan' width='359' height='291'></p>
-		</div>
-		<div class = 'seating'>
-		<h3>40 normal seats</h3>
-		<ul>
-		    <li>Full Adult</li>
-		    <li>Concession Adult</li>
-		    <li>Child under 12</li>
-		</ul>
-		
-		<h3>12 First Class seats</h3>
-		<ul>
-		    <li>Adult</li>
-		    <li>Child under 12</li>
-		</ul>
-		
-		<h3>13 Bean Bag seats</h3>
-		<ul>
-		    <li>Adult (2 adults)</li>
-		    <li>Family (1 adult + 1 child)</li>
-		    <li>Child (3 children under 12)</li>
-		</ul>
-		</div> 
-		<!-- end of .seating -->
-    </main>
+        <main>
+            <div style="padding: 10px 0 0 0;">
+                <h2>We're Back!</h2>
+                <p>After three months' renovation, we present you the premium cinema experience that you had never experienced before in the town! Let's have a look on new features after the renovation.</p> 
+            </div>
+            
+            <div class="container">
+                <div class="contain_in">
+                    <h2>3D Projection</h2>
 
-    <footer>
-        <p>Name: Jia Yin  StudentID: s3628532
-	    Name: Xiao Yu Lim  StudentID: s3622764     </p>
-    </footer>
+                    <div>
+                        <!-- Original image below sourced for educational purposes: http://hypersonicegypt.com/screens/ -->
+                        <img class="homepage_img" src="../img/3d.jpg" alt="3D Projection" >
+                        
+                        <div class="desc1">
+                            Experience a unique full-spectrum color technology that provides extremelly crisp and clear image.
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="container_in">
+                    <h2>Dolby Lighting & Sound System</h2>
+
+                    <div>
+                        <!-- Original image below sourced for educational purposes: http://www.geekadelphia.com/wp-content/uploads/2017/06/1450118339307.jpg -->
+                        <img class="homepage_img" src="../img/dolby.jpg" alt="Dobly Lighting & Sound System" >
+                        
+                        <div class="desc1">
+                            <b>Moving Audio</b><br/>Breathtaking sound in Dolby Atmos fills the cinema and flows around you!
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container_in">
+                    <h2>New Seating & Floor Plan</h2>
+
+                    <div class="seating">
+                        <img class="homepage_img" src="../img/seating.png" alt="Seating Floor Plan" style="width: 100%; height: 100%;">
+                    </div>
+
+                    <div class="seating">
+                        <h3>Normal Seats</h3>
+
+                        <div class="desc">
+                            Quantity: 40 pax<br/>
+                            Booking Options:-
+                            <ul class="ul1">
+                                <li>Full Adult</li>
+                                <li>Concession Adult</li>
+                                <li>Child Under 12</li>
+                            </ul>
+                        </div>
+
+                        <h3>First Class Seats</h3>
+
+                        <div class="desc">
+                            Quantity: 12 pax<br/>
+                            Booking Options:-
+                            <ul class="ul1">
+                                <li>Adult</li>
+                                <li>Child Under 12</li>
+                            </ul>
+                        </div>
+
+                        <h3>Bean Bags Seats</h3>
+
+                        <div class="desc">
+                            Quantity: 12 pax<br/>
+                            Booking Options:-
+                            <ul class="ul1">
+                                <li>Adult (2 Adults Only)</li>
+                                <li>Family (1 Adult + 1 Child)</li>
+                                <li>Child (3 Children Under 12)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div>
+                <div>
+                    Group Leader: Jia Yin, S3628532
+                </div>
+                
+                <div>
+                    Partner: Xiao Yu Lim, S3622764
+                </div>
+            </div>
+        </footer>
     </body>
-    </html>
+</html>
